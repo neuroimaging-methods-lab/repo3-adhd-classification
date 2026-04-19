@@ -61,12 +61,12 @@ Can ROI-level resting-state functional connectivity distinguish ADHD participant
 
 ## Results
 
-Baseline classification performance was limited:
+Cross-validated evaluation revealed strong rank-order class discrimination but poor threshold-based classification:
 
 * Accuracy: 0.20
-* ROC-AUC: 0.04
+* ROC-AUC: 0.96
 
-These findings suggest that simple linear modelling on a small heterogeneous sample was insufficient to recover a reliable diagnostic signal.
+This contrast illustrates how classification accuracy alone can be misleading and why threshold-independent metrics such as ROC-AUC are important in imbalanced or clinically noisy datasets.
 
 ---
 
